@@ -1,0 +1,14 @@
+1) empty list
+2) add to front
+3) add inside
+4} add to the end
+
+while(cur != null && temp.getValue() > cur.getValue()) {
+    prev = cur;
+    cur = cur.getNext();
+    // didnt finish the code of adding the 9 in between 8 and 12
+}
+
+prev.setNext(temp);
+
+while (temp.getValue().compare_to(cur.getValue()) < 0)

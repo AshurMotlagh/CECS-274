@@ -1,0 +1,52 @@
+Data Structures
+ -  array
+    -   data is same
+    -   fixed size
+    -   index
+    -   knows how big
+    -   length
+ -  linked list
+    -   does not have indexes
+    -   size may vary
+ -  stack
+ -  array list
+ -  queue
+ -  Tree
+ -  hash maps
+ -  graphs
+
+ int [] num;
+ num - new int[10]
+
+ linked list LL,
+ LL - new linked list();
+
+
+ public static void main(String [] args){
+    LinkedList myList;
+    myList = new LinkedList()
+    myList.add(3);
+    myList.add(20);
+    myList.add(9);
+    myList.delete(6);
+    myList.display();
+    boolean f = myList.find(6);
+    myList.sort();
+ }
+
+
+
+                                                                 //LinkedList()
+                                                                                         boolean find(int)
+                               void delete(int)                     node head                    void display()
+                                                                                        void add(int)
+                                                                 void sort()
+
+------------------------------------------------------------------------------------------------------------------------
+
+                                                                  //Node
+                                                                                        Node(int)
+                               SetNext(node)               int value node next                 int getValue()
+                                                                                        NodegetNet()
+                                                              S
+

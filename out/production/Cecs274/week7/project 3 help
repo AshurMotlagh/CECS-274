@@ -1,0 +1,59 @@
+public class Node{
+    private int value;
+    private Node next;
+
+    public Node(int x){
+        value = x;
+        next = null;
+    }
+    public void display(){
+        System.out.print(value);
+    }
+    public Node getNext();{
+        return next;
+    }
+    public void setNext(Node n);{
+        next = n;
+    }
+    public Node getValue();
+        return value;
+}
+public static void main(String [] args){
+    node n = new Node(6)
+    n.display();
+}
+
+Linked list
+-node head
+    - display()
+    - void add(int)
+    - boolean find(int)
+    - void delete(int)
+    - LinkedList() //constructor
+    - int size()
+
+public class LinkedList{
+    private Node head;
+    public LinkedList(){
+        head = null;
+    }
+    public void display(){
+        Node temp = head
+        while(temp != null){
+            temp.display();
+            temp = temp.getNext;
+        }
+    }
+    public void addToFront(int x){
+        Node temp = new Node(x);
+        temp.setNext(head);
+        head = temp;
+    }
+}
+public static void main(String [] args){
+    LinkedList L1 = new LinkedList();
+    L1.display(); // 6, 12 , 20, 30, 34
+    L1. addToFront(3);
+    L1. addToFront(7);
+
+}

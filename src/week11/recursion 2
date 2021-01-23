@@ -1,0 +1,65 @@
+135497 = 1+3+5+4+7+9
+
+29 == sumOfDigits(135479)
+
+2 cases
+    base case
+    general case
+
+
+if x <= 9 -> sOD = x
+
+int sumOfDigits(int x){
+    if (x<=9)
+        return x;
+    else{
+        int digit = x % 10;
+        return digit + sumOfDigits(x / 10)
+    }
+
+}
+                       Pascal Triangle
+                             1
+                            1 1
+                           1 2 1
+                          1 3 3 1
+
+Base case
+    col = 1 -> return 1
+    col == row -> return 1
+General CASE
+    return pt(r-1,c) + pt(r-1, c+1)
+
+int pascal(int row, int col){
+    if col == 1
+        return 1;
+    else if col == row
+        return 1;
+    else
+        return pascal(row -1 , col) + pascal(row -1, row - 1);
+}
+
+------------------------------------------------------------Array List----------------------------------------------
+Like arrays and linked list
+have indexes
+
+import Java.util.ArrayList;
+
+ArrayList<Card> deck = new ArrayList<Card>();
+Card c1 = new Card('A',"S");
+deck.add(c1);
+deck.add(Card('2','S'));
+
+ArrayList<int> //cannot do this !!!!!!!   int is primitive type
+
+ArrayList<Integer> pyramid = ArrayList<Integer>();
+pyramid.add(4);
+pyramid.add(6);
+pyramid.add(2);
+int P0 = pyrimid.get(0); // ArrayList
+p0 = pyrimid[0]  //Array
+
+                                               0
+                                             75 75
+                                          112 225 112
+                                        149 318 318 149

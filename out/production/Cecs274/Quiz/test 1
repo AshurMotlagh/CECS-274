@@ -1,0 +1,12 @@
+1)
+public boolean isEmpty(){
+    if(top=52)
+        return true
+    else
+    return false
+}
+
+2)
+public void shuffle()
+    random r = new random();
+    for()int 

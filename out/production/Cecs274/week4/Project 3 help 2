@@ -1,0 +1,33 @@
+Card class
+- behaviora
+    - verbs
+    - function/ methods
+- Attributes
+    - nouns
+    - data member
+
+- rank char
+- suit char
+- faceup boolean  // we dont need this
+
+what can a card do?
+- flip()  // we dont need this
+- int getValue()
+- void display()
+- Card() // constructor, they dont have a return value
+
+
+                     voidDisplay()            Card(char,char)
+
+                                    char rank             int getValue()
+                                    char suit
+
+public class Card{
+    private char rank;
+    private char suit;
+
+    Card(char r, char s){
+        rank = r;
+        suit = s;
+    }
+}

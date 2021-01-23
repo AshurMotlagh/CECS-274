@@ -1,0 +1,21 @@
+public boolean find(int x) {
+    Node n = head;
+    while (n != null) {
+         if(n.getValue() == x)
+              return true;
+         else{
+              n = n.getNext();
+         }
+    }
+    return false;
+}
+
+public int size() {
+    Node n= head;
+    int cnt = 0;
+    while(n != null){
+         n = n.getNext();
+         cnt += 1;
+    }
+    return cnt;
+}

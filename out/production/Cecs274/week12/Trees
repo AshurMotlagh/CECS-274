@@ -1,0 +1,22 @@
+                                            root
+                                             me
+
+                            Mom(node)                        DAd
+
+                   grandma(node)  grandpa             grandpa  grandma
+
+  worker bee     worker bee (leaf node)
+
+
+
+
+
+
+
+                                      Binary Search Tree
+                                            root
+                                             34
+
+                            20(node)                        56(node)
+
+                 10(node)            25(node)

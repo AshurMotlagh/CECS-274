@@ -1,0 +1,30 @@
+-While Loop
+    int x = 3
+    while(x < 10) // inside the () is the conditional statement
+    {
+        square = x *x;
+        system.out.printf("%10d : %10d\n",x,square)
+        x++ OR x = x +1 OR x += 1
+        // prints out _________3 : _________9
+        //  _________4 : ________16
+        //  _________5 : ________25
+        //  _________6 : ________36
+        //  _________7 : ________49
+        //  _________8 : ________64
+        //  _________9 : ________81
+        //  ________10 : _______100
+    }
+    
+- For Loop
+    for( int x = 3; x <= 10; ) // SPACE 1 is initialization, SPACE 2 is continuation, SPACE 3 is incremental
+    {
+        system.out.printf("%10d : %10d\n",x, x*x)
+        x++
+    }
+    
+- Do Loop
+    int x = 3
+    do
+    {
+        system.out.println("hello")
+    }while(x>10)

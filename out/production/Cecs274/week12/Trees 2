@@ -1,0 +1,45 @@
+                                             BST
+                                             10
+
+                            5(node)                               57(node)
+
+                                     7(node)                34            60
+
+                           6Leaf Node
+
+Notes
+1) if you plug in 34, the 34 would get thrown away since it is a duplicate/ already in the tree
+2) has 2 childs but if it doesnt have a value its null
+3) balanced tree is a tree whose subtree differ in height by at most 1
+
+class Node{
+    private int value;
+    private Node lc;
+    private Node rc;
+
+    public Node(int x);
+    public int getValue();
+    public void setValue(int);
+    public void display();
+    public Node getRC();
+    public Node getLC();
+    public Node setRC(Node);
+    public Node setLC(Node);
+}
+
+class BST{
+    private Node root;
+
+    BST();
+    boolean void add(int);  //the boolean depends on the requirements
+    boolean find(int);
+    int max();
+    double ave();
+    int min();
+    int height();
+    int size();
+    int sum();
+    void display();
+}
+
+

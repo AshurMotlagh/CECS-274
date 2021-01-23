@@ -1,0 +1,37 @@
+------------------------------------------Project 3 Solitaire Primes----------------------------------------------------
+cards = 52
+Verbs
+- void Shuffle() // this will be a function
+- Card Deal() // this will be a function
+- CreateDeck()
+- int cardsLeft() //will be a function
+- display() //displays all the cards
+    -AS 2s 3s 4s .... kS
+     AD . . . . . . . KD
+     AC . . . . . . . kC
+     AH . . . . . . . kH
+
+Card
+-getValue()
+-isPrime(int n) // test to check if number is prime and return a Boolean True/False
+
+public class SolitairePrime{
+    isPrime(int n){
+
+    }
+
+    public static void main(){
+        Deck myDeck = newDeck(); // this is a reference
+        myDeck.display();
+        myDeck.shuffle();
+        myDeck.display();
+
+        int pile = 0;
+        Card C1 = myDeck.deal();
+        C1.display();
+        while(isPrime(pile) == false){
+
+        }
+
+    }
+}

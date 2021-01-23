@@ -1,0 +1,26 @@
+1) add to Empty list
+2) add to front of existing list
+3) add to middle of List
+4) add to the end
+
+public static void main(){
+    linkedList myList = new LinkedList();
+    myList.add(13);
+    myList.add(6);
+    myList.add(10);
+    myList.add(4);
+    myList = new LinkedList();
+    myList. add(42);
+}
+
+//linkedList class:
+    public void add(int x){
+        Node temp = new Node(x);
+        if(head == null){
+            head = temp
+        }
+        else if (temp.getValue() <= head.getValue()){
+            temp.setNext(head);
+            head = temp;
+        }
+    }

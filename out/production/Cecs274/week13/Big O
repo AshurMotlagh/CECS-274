@@ -1,0 +1,75 @@
+57
+45
+32
+66
+89
+12
+46
+78
+42
+23
+11
+989
+
+                                        11  ->  45  ->  989
+if there are 900 items in the list we have to go through every single one of them
+n items -> n trys find or exhast (linked list)
+
+                                                45
+                                       11                989
+if there are 900 items in the tree, will you go over evry single one of them? NO
+n items (tree)  log2(n)
+
+150,000,000 items
+linked list -> 150,000,000
+BST -> 28 (log2(150,000,000))
+
+150,000,000 items (search)
+linked list -> growth rate of n
+BST -> growth rate log(n)
+
+150,000,000 items (search)
+linked list -> Big O(n)
+BST -> O(log(n))
+
+
+Sorts (algorithm)
+Bubble sort  O(n^2)
+quick sort   O(n*log(n))
+merge sort
+heap sort
+bogo sort
+insertion sort
+comb sort
+shaker sort
+selection sort
+BST
+
+
+Bubble Sort
+The largest number goes to the end while the smallest will be at the top
+done by going top to bottom comparing largest number and taking it down to the bottom
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

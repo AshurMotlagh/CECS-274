@@ -1,0 +1,43 @@
+                                                        1
+                                                      1   1
+                                                    1   2   1
+
+
+public class Main{
+    public static void main(String [] args){
+    int LineCount = 9;
+        for (int i=0; i<Linecount, i++){
+            for (int k; k<10; k++)
+                System.out.println("   ");
+
+            for (int j =1; j<=i; j++)
+                System.out.printf("6fd",pascal(i,j))
+
+            System.out.println();
+         }
+    }
+    public static int pascal(int r, int c){
+        if (r == c || r== 1)
+            return 1;
+         else
+            return pascal(r-1,c-1) + pascal(r-1,c)
+    }
+}
+
+
+ArrayList<Integer> hp = new ArrayList<Integer>();
+hp[0]   pyramid(1,1)
+hp[1]   pyrimid(2,1)
+hp[2]   pyrimid(2,2)
+hp[3]   pyrimid(3,1)
+hp[4]   pyrimid(3,2)
+hp[5]   pyrimid(3,3)
+
+rowMax = in.nextInt();
+for(int row = 1; row <= rowMax; row++)
+    for(int col = 1; col <= row; col++)
+        hp.add(pyrimid(row,col))
+
+f
+
+display(hp);

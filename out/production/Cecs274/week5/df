@@ -1,0 +1,25 @@
+- application solitaire Prime
+    - Deck
+    - Card
+    - menu() // int menu() as a function
+    - boolean isPrime(int x) // a function in solitaire class
+
+- Card class
+    - Card()
+    - void display()
+    - int getValue()
+
+ -Deck class
+    - void display()
+    - void shuffle()
+    - Card deal()
+    - int cardsLeft()
+    - Deck()
+
+public static void main(){
+    Deck myDeck = newDeck();
+    System.out.println(myDeck.cardsLeft());
+    myDeck.display();
+    myDeck.shuffle();
+    myDeck.display();
+}

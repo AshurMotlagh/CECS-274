@@ -1,0 +1,72 @@
+We have already used recursion without knowing about it.
+when you can do recursion you can do a loop and vice versa
+
+public class Node{
+    private int value;
+    private Node next;
+}
+
+
+factorial function !
+
+5! -> 5 * (4 * 3 * 2 * 1)
+5! -> 5 * 4!
+n! -> n * (n-1)!  (general case)
+0! -> 1  (base case)
+
+
+
+int x = fact(5); //120
+
+int fact(int n){
+    System.out.println(n);      //fun to see how it works
+    if (n == 0)
+        return 1;
+    else
+    return n * fact(n-1);
+}
+
+
+Fibonacci Sequence
+
+1 1 2 3 5 8 13
+ or
+0 1 1 2 3 5 8 13
+
+0  1 r
+1  1 R
+2  2 R -> r
+3  3 R -> r, R
+4  5 R -> r, R -> r, R
+5  6 R -> r, R -> r, R -> r, R, R
+6  13
+7  21
+
+fibo (n) -> fibo(n-1) + fibo(n-2)  (general case)
+fibo (1) -> 1  (base case)
+fibo (0) -> 1  (base case)
+
+int fibo (int n){
+    if(n==0 || n==1)
+        return 1;
+    else
+        return fibo(n-1) + fibo(n-2);
+}
+
+
+
+
+
+if x == 0
+    return 0
+if y == 0
+
+
+
+
+
+
+
+
+
+
